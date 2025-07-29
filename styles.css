@@ -1,7 +1,7 @@
 /* General Body Styling */
 body {
   font-family: Arial, sans-serif;
-  /*background-color: #f0f8ff;*/
+  background: #ADD8E6;
   color: #333;
   margin: 20px;
   line-height: 1.6;
@@ -46,12 +46,15 @@ li {
 
 /* Images */
 img {
-  display: block;
+  border:10px solid pink;
+  width:250px;
+  border-radius:50%;
+  /*display: block;
   margin: 10px auto;
   max-width: 90%;
   height: auto;
   border-radius: 8px;
-  /*box-shadow: 0 0 8px rgba(0,0,0,0.1);*/
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);*/
 }
 
 /* Links */
